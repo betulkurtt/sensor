@@ -47,14 +47,3 @@ Program çalıştırıldığında ölçüm raporunu terminale yazdırır ve sonu
 | Sıcaklık | 18–28 °C | 15–18 veya 28–32 °C | 15 °C altı veya 32 °C üstü |
 | Nem | %30–60 | %20–30 veya %60–70 | %20 altı veya %70 üstü |
 | Hareket | Algılanmadı | Algılandı | — |
-
-## Örnek çıktı
-
-```text
---- Sensor Olcum Raporu ---
-[2026-10-19 10:30:00] SIC-01 (Sicaklik): 27.4 C | Durum: Normal
-[2026-10-19 10:30:00] NEM-01 (Nem): 61.2 % | Durum: Uyari
-[2026-10-19 10:30:00] HAR-01 (Hareket): 1 durum | Durum: Uyari
-
-Olcumler 'olcumler.csv' dosyasina kaydedildi.
-```
